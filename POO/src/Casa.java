@@ -1,5 +1,6 @@
 public class Casa {
-    // Atributo:
+    // Atributos:
+    String nome;
     boolean inteligente;
     // Construtor padrão (sem parâmetro):
     public Casa() {

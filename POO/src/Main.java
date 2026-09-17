@@ -10,10 +10,13 @@ public class Main {
         // construtor padrão:
         // casa1.inteligente = false;
         // casa2.inteligente = true;
+        casa3.inteligente = false;
+        System.out.println(casa3.nome);
 
         casa1.acenderLuz();
         casa2.acenderLuz();
-        casa3.inteligente = false;
+        casa3.acenderLuz();
+        System.out.println(casa3.nome);
     }
 }
 

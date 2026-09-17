@@ -1,3 +1,5 @@
+package moradias;
+
 public class Casa {
     // Atributos:
     String nome;

@@ -1,3 +1,5 @@
+import moradias.Casa;
+
 public class Main {
     public static void main(String[] args) {
         // Instâncias criadas com o construtor com parâmetro:

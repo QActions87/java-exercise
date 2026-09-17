@@ -1,4 +1,4 @@
-package moradias;
+package br.com.qaction.moradias;
 
 public class Casa {
     // Atributos:

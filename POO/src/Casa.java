@@ -1,5 +1,12 @@
 public class Casa {
+    // Atributo:
     boolean inteligente;
+
+    // Construtor com parâmetro:
+    public Casa(boolean inteligente) {
+        this.inteligente = inteligente;
+    }
+
 
     void acenderLuz() {
         if (inteligente)

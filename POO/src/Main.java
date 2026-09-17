@@ -16,6 +16,9 @@ public class Main {
         casa1.acenderLuz();
         casa2.acenderLuz();
         casa3.acenderLuz();
+        // inicializando o atributo 'nome', antes de acessar:
+        casa3.nome = "caverna";
+        // Acessando o atributo 'nome':
         System.out.println(casa3.nome);
     }
 }

@@ -2,8 +2,8 @@ package br.com.qaction.moradias;
 
 public class Casa {
     // Atributos:
-    String nome;
-    boolean inteligente;
+    public String nome;
+    public boolean inteligente;
     // Construtor padrão (sem parâmetro):
     public Casa() {
     }
@@ -14,7 +14,7 @@ public class Casa {
     }
 
     // Metodo:
-    void acenderLuz() {
+    public void acenderLuz() {
         if (inteligente)
             System.out.println("Comando de voz");
         else

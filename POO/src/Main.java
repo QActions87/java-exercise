@@ -1,4 +1,4 @@
-import moradias.Casa;
+import br.com.qaction.moradias.Casa;
 
 public class Main {
     public static void main(String[] args) {

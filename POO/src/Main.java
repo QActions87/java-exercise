@@ -22,7 +22,7 @@ public class Main {
 //        casa3.nome = "caverna";
 //        // Acessando o atributo 'nome':
 //        System.out.println(casa3.nome);
-        Double soma = new Matematica().soma(3.0, 7.0);
+        Double soma = Matematica.soma(3.0, 7.0);
         System.out.println(soma);
     }
 }

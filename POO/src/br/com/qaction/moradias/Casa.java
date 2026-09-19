@@ -3,7 +3,7 @@ package br.com.qaction.moradias;
 public class Casa {
     // Atributos:
     public String nome;
-    public boolean inteligente;
+    public Boolean inteligente;
     // Construtor padrão (sem parâmetro):
     public Casa() {
     }

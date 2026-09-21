@@ -3,4 +3,8 @@ public class Carro {
     public String volante;
     public String   pedais;
     public String airbag;
+
+    public void ligarCarro() {
+        System.out.println("Ligando o carro...");
+    }
 }

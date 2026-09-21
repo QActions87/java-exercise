@@ -7,4 +7,34 @@ public class Carro {
     public void ligarCarro() {
         System.out.println("Ligando o carro...");
     }
+
+    public void acelerar() {
+        System.out.println("Acelerar...");
+    }
+
+    public void frear() {
+        System.out.println("Frear...");
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

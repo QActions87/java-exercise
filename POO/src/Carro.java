@@ -15,6 +15,10 @@ public class Carro {
     public void frear() {
         System.out.println("Frear...");
     }
+
+    public void ativarAirbags() {
+        System.out.println("Ativando airbags...");
+    }
 }
 
 

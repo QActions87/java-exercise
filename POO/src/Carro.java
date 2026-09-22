@@ -1,7 +1,7 @@
 public class Carro {
     private Motor motor;
-    public String volante;
-    public String   pedais;
+    private String volante;
+    private String   pedais;
     private String airbag;
 
     public void ligarCarro() {

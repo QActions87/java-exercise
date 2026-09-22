@@ -1,3 +1,5 @@
+package empresa;
+
 public class Main {
     public static void main(String[] args) {
         // Instanciando o objeto carro:
@@ -8,7 +10,7 @@ public class Main {
         carro.frear();
 
         // Acessando e modificando DIRETAMENTE o atributo 'volante'(VIOLA o ENCAPSULAMENTO):
-        carro.volante = "dado modificado";
+        //carro.volante = "dado modificado";
 
         // Acesso mediante um 'Setter', seguindo boas práticas do encapsulamento:
         carro.setVolante("dado modificado");

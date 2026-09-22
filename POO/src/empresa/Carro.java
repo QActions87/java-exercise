@@ -6,6 +6,13 @@ public class Carro {
     private String   pedais;
     private String airbag;
 
+    // Por boa prática, criei o construtor inicializando os atributos que acessados por outras classes:
+    public Carro() {
+        this.motor = new Motor();
+        this.volante = "Volante";
+        this.pedais = "Pedais";
+    }
+
     public void ligarCarro() {
         System.out.println("Ligando o carro...");
     }
